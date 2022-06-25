@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background-image: url(images/birdF.jpg) ;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+height: 80px;
+width: 100%;
+background: rgba(0, 0, 0, 0.6);
+}
+.container img{
+    height: 20px;
+    width: 30px;
+    border-radius: 10%;
+    border-top: 5px;
+
+}
+.head{
+    border-radius: 2px;
+    bottom: auto;
+    display: flex;
+    border-right: 30%;
+
+}
