@@ -2,6 +2,7 @@
 *{
     padding: 0;
     margin: 0;
+  
 }
 .container{
     background-image: url(images/birdF.jpg) ;
@@ -72,7 +73,7 @@ background: rgba(0, 0, 0, 0.6);
 
 }
 
-  .btn button {
+.btn button {
     height: 50px;
     width: 150px;
     font-size: 15px;
@@ -93,4 +94,61 @@ background: rgba(0, 0, 0, 0.6);
 
 .btn button:hover{
     background:#cc000c ;
+}
+
+/* ------  footer  ----*/
+
+
+footer {
+    width: 80%;
+    /* position: absolute; */
+    bottom: 0;
+    background-color: linear-gradient(to right red, green );
+    color: #cc000c;
+    border-top-left-radius: 5px;
+    padding: 15px 0 10px;
+    font-size: 15px;
+    line-height: 16px;
+
+
+ }
+
+ .row{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+ }
+.col{
+    flex-basis: 25%;
+    padding: 20px;
+   
+}
+.logo{
+    width: 80px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 15px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    margin: 15px 0;
+    border-bottom: 1px solid rgb(207, 57, 57);
+}
+.col ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.col ul li a{
+    text-decoration: none;
+    color: #cc000c;
 }
